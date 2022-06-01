@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "year": {
-      "type": "string"
-    },
     "karyalaya": {
       "type": "string"
     },
@@ -26,6 +23,12 @@
       "type": "component",
       "repeatable": true,
       "component": "collection.collection"
+    },
+    "timecode": {
+      "type": "biginteger"
+    },
+    "date": {
+      "type": "string"
     }
   }
 }
