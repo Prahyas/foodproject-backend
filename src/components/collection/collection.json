@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_collection_collections",
+  "info": {
+    "displayName": "Collection",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "khadyanna": {
+      "type": "string"
+    },
+    "months": {
+      "displayName": "Months",
+      "type": "component",
+      "repeatable": false,
+      "component": "months.months"
+    }
+  }
+}

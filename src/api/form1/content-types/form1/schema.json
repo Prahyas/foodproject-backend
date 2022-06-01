@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form1s",
+  "info": {
+    "singularName": "form1",
+    "pluralName": "form1s",
+    "displayName": "Form1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "karyalaya": {
+      "type": "string"
+    },
+    "aawo": {
+      "type": "string"
+    },
+    "collection": {
+      "displayName": "Collection",
+      "type": "component",
+      "repeatable": true,
+      "component": "collection.collection"
+    }
+  }
+}
