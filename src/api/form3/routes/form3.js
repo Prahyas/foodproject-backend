@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * form2 router.
+ * form3 router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::form2.form2');
+module.exports = createCoreRouter('api::form3.form3');

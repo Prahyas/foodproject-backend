@@ -1,24 +1,20 @@
 {
   "kind": "collectionType",
-  "collectionName": "form2s",
+  "collectionName": "form3s",
   "info": {
-    "singularName": "form2",
-    "pluralName": "form2s",
-    "displayName": "Form2",
-    "description": ""
+    "singularName": "form3",
+    "pluralName": "form3s",
+    "displayName": "Form3"
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "arthikbarsha": {
-      "type": "string"
-    },
     "karyalaya": {
       "type": "string"
     },
-    "saptaha": {
+    "arthikbarsha": {
       "type": "string"
     },
     "date": {
@@ -27,8 +23,10 @@
     "timecode": {
       "type": "biginteger"
     },
+    "saptaha": {
+      "type": "string"
+    },
     "form3collection": {
-      "displayName": "Collection2",
       "type": "component",
       "repeatable": true,
       "component": "form3collection.collection2"

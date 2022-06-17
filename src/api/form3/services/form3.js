@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * form2 service.
+ * form3 service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::form2.form2');
+module.exports = createCoreService('api::form3.form3');

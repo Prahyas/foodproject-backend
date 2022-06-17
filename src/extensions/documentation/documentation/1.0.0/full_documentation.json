@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-06-17T06:36:44.565Z"
+    "x-generation-date": "2022-06-17T07:04:02.652Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -960,7 +960,7 @@
           }
         }
       },
-      "Form2Request": {
+      "Form3Request": {
         "type": "object",
         "required": [
           "data"
@@ -970,13 +970,10 @@
             "required": [],
             "type": "object",
             "properties": {
-              "arthikbarsha": {
-                "type": "string"
-              },
               "karyalaya": {
                 "type": "string"
               },
-              "saptaha": {
+              "arthikbarsha": {
                 "type": "string"
               },
               "date": {
@@ -986,6 +983,9 @@
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"
+              },
+              "saptaha": {
+                "type": "string"
               },
               "form3collection": {
                 "type": "array",
@@ -1052,7 +1052,7 @@
           }
         }
       },
-      "Form2ListResponse": {
+      "Form3ListResponse": {
         "properties": {
           "data": {
             "type": "array",
@@ -1065,13 +1065,10 @@
                 "attributes": {
                   "type": "object",
                   "properties": {
-                    "arthikbarsha": {
-                      "type": "string"
-                    },
                     "karyalaya": {
                       "type": "string"
                     },
-                    "saptaha": {
+                    "arthikbarsha": {
                       "type": "string"
                     },
                     "date": {
@@ -1081,6 +1078,9 @@
                       "type": "string",
                       "pattern": "^\\d*$",
                       "example": "123456789"
+                    },
+                    "saptaha": {
+                      "type": "string"
                     },
                     "form3collection": {
                       "type": "array",
@@ -1472,7 +1472,7 @@
           }
         }
       },
-      "Form2Response": {
+      "Form3Response": {
         "properties": {
           "data": {
             "type": "object",
@@ -1483,13 +1483,10 @@
               "attributes": {
                 "type": "object",
                 "properties": {
-                  "arthikbarsha": {
-                    "type": "string"
-                  },
                   "karyalaya": {
                     "type": "string"
                   },
-                  "saptaha": {
+                  "arthikbarsha": {
                     "type": "string"
                   },
                   "date": {
@@ -1499,6 +1496,9 @@
                     "type": "string",
                     "pattern": "^\\d*$",
                     "example": "123456789"
+                  },
+                  "saptaha": {
+                    "type": "string"
                   },
                   "form3collection": {
                     "type": "array",
@@ -6947,7 +6947,7 @@
         "operationId": "delete/form1s/{id}"
       }
     },
-    "/form2s": {
+    "/form3s": {
       "get": {
         "responses": {
           "200": {
@@ -6955,7 +6955,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Form2ListResponse"
+                  "$ref": "#/components/schemas/Form3ListResponse"
                 }
               }
             }
@@ -7012,7 +7012,7 @@
           }
         },
         "tags": [
-          "Form2"
+          "Form3"
         ],
         "parameters": [
           {
@@ -7096,7 +7096,7 @@
             }
           }
         ],
-        "operationId": "get/form2s"
+        "operationId": "get/form3s"
       },
       "post": {
         "responses": {
@@ -7105,7 +7105,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Form2Response"
+                  "$ref": "#/components/schemas/Form3Response"
                 }
               }
             }
@@ -7162,23 +7162,23 @@
           }
         },
         "tags": [
-          "Form2"
+          "Form3"
         ],
         "parameters": [],
-        "operationId": "post/form2s",
+        "operationId": "post/form3s",
         "requestBody": {
           "required": true,
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Form2Request"
+                "$ref": "#/components/schemas/Form3Request"
               }
             }
           }
         }
       }
     },
-    "/form2s/{id}": {
+    "/form3s/{id}": {
       "get": {
         "responses": {
           "200": {
@@ -7186,7 +7186,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Form2Response"
+                  "$ref": "#/components/schemas/Form3Response"
                 }
               }
             }
@@ -7243,7 +7243,7 @@
           }
         },
         "tags": [
-          "Form2"
+          "Form3"
         ],
         "parameters": [
           {
@@ -7257,7 +7257,7 @@
             }
           }
         ],
-        "operationId": "get/form2s/{id}"
+        "operationId": "get/form3s/{id}"
       },
       "put": {
         "responses": {
@@ -7266,7 +7266,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Form2Response"
+                  "$ref": "#/components/schemas/Form3Response"
                 }
               }
             }
@@ -7323,7 +7323,7 @@
           }
         },
         "tags": [
-          "Form2"
+          "Form3"
         ],
         "parameters": [
           {
@@ -7337,13 +7337,13 @@
             }
           }
         ],
-        "operationId": "put/form2s/{id}",
+        "operationId": "put/form3s/{id}",
         "requestBody": {
           "required": true,
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Form2Request"
+                "$ref": "#/components/schemas/Form3Request"
               }
             }
           }
@@ -7414,7 +7414,7 @@
           }
         },
         "tags": [
-          "Form2"
+          "Form3"
         ],
         "parameters": [
           {
@@ -7428,7 +7428,7 @@
             }
           }
         ],
-        "operationId": "delete/form2s/{id}"
+        "operationId": "delete/form3s/{id}"
       }
     },
     "/upload/files/count": {
