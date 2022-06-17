@@ -14,7 +14,7 @@
       "type": "integer"
     },
     "kaifiyat": {
-      "type": "string"
+      "type": "text"
     },
     "shrawan": {
       "type": "integer"

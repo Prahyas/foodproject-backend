@@ -27,7 +27,7 @@
     "timecode": {
       "type": "biginteger"
     },
-    "collection2": {
+    "collection": {
       "displayName": "Collection2",
       "type": "component",
       "repeatable": true,
