@@ -1,8 +1,9 @@
 {
   "collectionName": "components_collection2_collection2s",
   "info": {
-    "displayName": "Collection2",
-    "icon": "align-justify"
+    "displayName": "form3collection",
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {

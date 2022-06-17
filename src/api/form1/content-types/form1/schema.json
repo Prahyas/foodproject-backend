@@ -18,11 +18,11 @@
     "arthikbarsha": {
       "type": "string"
     },
-    "collection": {
+    "form1collection": {
       "displayName": "Collection",
       "type": "component",
       "repeatable": true,
-      "component": "collection.collection"
+      "component": "form1collection.collection"
     },
     "timecode": {
       "type": "biginteger"

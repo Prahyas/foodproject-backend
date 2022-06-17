@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-06-17T06:04:57.456Z"
+    "x-generation-date": "2022-06-17T06:17:24.870Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -103,7 +103,7 @@
               "arthikbarsha": {
                 "type": "string"
               },
-              "collection": {
+              "form1collection": {
                 "type": "array",
                 "items": {
                   "type": "object",
@@ -111,7 +111,7 @@
                     "khadyanna": {
                       "type": "string"
                     },
-                    "months": {
+                    "form1data": {
                       "type": "object",
                       "properties": {
                         "shrawan": {
@@ -186,7 +186,7 @@
                     "arthikbarsha": {
                       "type": "string"
                     },
-                    "collection": {
+                    "form1collection": {
                       "type": "array",
                       "items": {
                         "type": "object",
@@ -197,7 +197,7 @@
                           "khadyanna": {
                             "type": "string"
                           },
-                          "months": {
+                          "form1data": {
                             "type": "object",
                             "properties": {
                               "id": {
@@ -592,7 +592,7 @@
                   "arthikbarsha": {
                     "type": "string"
                   },
-                  "collection": {
+                  "form1collection": {
                     "type": "array",
                     "items": {
                       "type": "object",
@@ -603,7 +603,7 @@
                         "khadyanna": {
                           "type": "string"
                         },
-                        "months": {
+                        "form1data": {
                           "type": "object",
                           "properties": {
                             "id": {
@@ -987,7 +987,7 @@
                 "pattern": "^\\d*$",
                 "example": "123456789"
               },
-              "collection": {
+              "form3collection": {
                 "type": "array",
                 "items": {
                   "type": "object",
@@ -1082,7 +1082,7 @@
                       "pattern": "^\\d*$",
                       "example": "123456789"
                     },
-                    "collection": {
+                    "form3collection": {
                       "type": "array",
                       "items": {
                         "type": "object",
@@ -1500,7 +1500,7 @@
                     "pattern": "^\\d*$",
                     "example": "123456789"
                   },
-                  "collection": {
+                  "form3collection": {
                     "type": "array",
                     "items": {
                       "type": "object",

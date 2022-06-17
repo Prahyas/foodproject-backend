@@ -27,11 +27,11 @@
     "timecode": {
       "type": "biginteger"
     },
-    "collection": {
+    "form3collection": {
       "displayName": "Collection2",
       "type": "component",
       "repeatable": true,
-      "component": "collection2.collection2"
+      "component": "form3collection.collection2"
     }
   }
 }
