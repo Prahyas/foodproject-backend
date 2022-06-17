@@ -10,11 +10,11 @@
     "bibaran": {
       "type": "string"
     },
-    "form3data": {
+    "form3months": {
       "displayName": "form3data",
       "type": "component",
       "repeatable": false,
-      "component": "form3data.form3data"
+      "component": "form3months.form3data"
     }
   }
 }
