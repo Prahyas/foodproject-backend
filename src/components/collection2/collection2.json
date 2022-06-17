@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_collection2_collection2s",
+  "info": {
+    "displayName": "Collection2",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "bibaran": {
+      "type": "string"
+    },
+    "form3data": {
+      "displayName": "form3data",
+      "type": "component",
+      "repeatable": false,
+      "component": "form3data.form3data"
+    }
+  }
+}

@@ -1,12 +1,21 @@
 {
-  "collectionName": "components_months_months",
+  "collectionName": "components_form3data_form3data",
   "info": {
-    "displayName": "Months",
+    "displayName": "form3data",
     "icon": "align-justify",
     "description": ""
   },
   "options": {},
   "attributes": {
+    "patak": {
+      "type": "integer"
+    },
+    "sankhya": {
+      "type": "integer"
+    },
+    "kaifiyat": {
+      "type": "string"
+    },
     "shrawan": {
       "type": "integer"
     },
