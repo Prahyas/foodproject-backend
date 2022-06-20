@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_form19months_form19months",
+  "info": {
+    "displayName": "form19months",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "ujurimiti": {
+      "type": "string"
+    },
+    "petika": {
+      "type": "string"
+    },
+    "prakar": {
+      "type": "string"
+    },
+    "shrot": {
+      "type": "string"
+    },
+    "sambhodanmiti": {
+      "type": "string"
+    },
+    "bibaran": {
+      "type": "text"
+    }
+  }
+}
