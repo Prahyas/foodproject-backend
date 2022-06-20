@@ -2,7 +2,8 @@
   "collectionName": "components_form19months_form19months",
   "info": {
     "displayName": "form19months",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -23,6 +24,9 @@
     },
     "bibaran": {
       "type": "text"
+    },
+    "samachya": {
+      "type": "string"
     }
   }
 }

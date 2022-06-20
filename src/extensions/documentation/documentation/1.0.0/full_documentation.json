@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-06-20T11:44:07.393Z"
+    "x-generation-date": "2022-06-20T12:15:33.103Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4567,6 +4567,9 @@
                         },
                         "bibaran": {
                           "type": "string"
+                        },
+                        "samachya": {
+                          "type": "string"
                         }
                       }
                     }
@@ -4631,6 +4634,9 @@
                                 "type": "string"
                               },
                               "bibaran": {
+                                "type": "string"
+                              },
+                              "samachya": {
                                 "type": "string"
                               }
                             }
@@ -5013,6 +5019,9 @@
                               "type": "string"
                             },
                             "bibaran": {
+                              "type": "string"
+                            },
+                            "samachya": {
                               "type": "string"
                             }
                           }
