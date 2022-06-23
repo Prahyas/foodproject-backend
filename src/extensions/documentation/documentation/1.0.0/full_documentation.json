@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-06-21T03:45:35.238Z"
+    "x-generation-date": "2022-06-23T09:59:09.943Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -11095,8 +11095,43 @@
                                                   }
                                                 }
                                               },
-                                              "department": {
-                                                "type": "string"
+                                              "rolescollection": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "id": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission1": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission2": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission3": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission4": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission5": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission6": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission7": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission8": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission9": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission10": {
+                                                    "type": "string"
+                                                  }
+                                                }
                                               },
                                               "createdAt": {
                                                 "type": "string",
@@ -11689,8 +11724,43 @@
                                                 }
                                               }
                                             },
-                                            "department": {
-                                              "type": "string"
+                                            "rolescollection": {
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "string"
+                                                },
+                                                "permission1": {
+                                                  "type": "string"
+                                                },
+                                                "permission2": {
+                                                  "type": "string"
+                                                },
+                                                "permission3": {
+                                                  "type": "string"
+                                                },
+                                                "permission4": {
+                                                  "type": "string"
+                                                },
+                                                "permission5": {
+                                                  "type": "string"
+                                                },
+                                                "permission6": {
+                                                  "type": "string"
+                                                },
+                                                "permission7": {
+                                                  "type": "string"
+                                                },
+                                                "permission8": {
+                                                  "type": "string"
+                                                },
+                                                "permission9": {
+                                                  "type": "string"
+                                                },
+                                                "permission10": {
+                                                  "type": "string"
+                                                }
+                                              }
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -12026,8 +12096,43 @@
                                                                 }
                                                               }
                                                             },
-                                                            "department": {
-                                                              "type": "string"
+                                                            "rolescollection": {
+                                                              "type": "object",
+                                                              "properties": {
+                                                                "id": {
+                                                                  "type": "string"
+                                                                },
+                                                                "permission1": {
+                                                                  "type": "string"
+                                                                },
+                                                                "permission2": {
+                                                                  "type": "string"
+                                                                },
+                                                                "permission3": {
+                                                                  "type": "string"
+                                                                },
+                                                                "permission4": {
+                                                                  "type": "string"
+                                                                },
+                                                                "permission5": {
+                                                                  "type": "string"
+                                                                },
+                                                                "permission6": {
+                                                                  "type": "string"
+                                                                },
+                                                                "permission7": {
+                                                                  "type": "string"
+                                                                },
+                                                                "permission8": {
+                                                                  "type": "string"
+                                                                },
+                                                                "permission9": {
+                                                                  "type": "string"
+                                                                },
+                                                                "permission10": {
+                                                                  "type": "string"
+                                                                }
+                                                              }
                                                             },
                                                             "createdAt": {
                                                               "type": "string",
@@ -12649,8 +12754,43 @@
                                                               }
                                                             }
                                                           },
-                                                          "department": {
-                                                            "type": "string"
+                                                          "rolescollection": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                              "id": {
+                                                                "type": "string"
+                                                              },
+                                                              "permission1": {
+                                                                "type": "string"
+                                                              },
+                                                              "permission2": {
+                                                                "type": "string"
+                                                              },
+                                                              "permission3": {
+                                                                "type": "string"
+                                                              },
+                                                              "permission4": {
+                                                                "type": "string"
+                                                              },
+                                                              "permission5": {
+                                                                "type": "string"
+                                                              },
+                                                              "permission6": {
+                                                                "type": "string"
+                                                              },
+                                                              "permission7": {
+                                                                "type": "string"
+                                                              },
+                                                              "permission8": {
+                                                                "type": "string"
+                                                              },
+                                                              "permission9": {
+                                                                "type": "string"
+                                                              },
+                                                              "permission10": {
+                                                                "type": "string"
+                                                              }
+                                                            }
                                                           },
                                                           "createdAt": {
                                                             "type": "string",
@@ -13171,8 +13311,40 @@
                 ],
                 "example": "string or id"
               },
-              "department": {
-                "type": "string"
+              "rolescollection": {
+                "type": "object",
+                "properties": {
+                  "permission1": {
+                    "type": "string"
+                  },
+                  "permission2": {
+                    "type": "string"
+                  },
+                  "permission3": {
+                    "type": "string"
+                  },
+                  "permission4": {
+                    "type": "string"
+                  },
+                  "permission5": {
+                    "type": "string"
+                  },
+                  "permission6": {
+                    "type": "string"
+                  },
+                  "permission7": {
+                    "type": "string"
+                  },
+                  "permission8": {
+                    "type": "string"
+                  },
+                  "permission9": {
+                    "type": "string"
+                  },
+                  "permission10": {
+                    "type": "string"
+                  }
+                }
               }
             }
           }
@@ -13621,8 +13793,43 @@
                                                   }
                                                 }
                                               },
-                                              "department": {
-                                                "type": "string"
+                                              "rolescollection": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "id": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission1": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission2": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission3": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission4": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission5": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission6": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission7": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission8": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission9": {
+                                                    "type": "string"
+                                                  },
+                                                  "permission10": {
+                                                    "type": "string"
+                                                  }
+                                                }
                                               },
                                               "createdAt": {
                                                 "type": "string",
@@ -13721,8 +13928,43 @@
                         }
                       }
                     },
-                    "department": {
-                      "type": "string"
+                    "rolescollection": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "permission1": {
+                          "type": "string"
+                        },
+                        "permission2": {
+                          "type": "string"
+                        },
+                        "permission3": {
+                          "type": "string"
+                        },
+                        "permission4": {
+                          "type": "string"
+                        },
+                        "permission5": {
+                          "type": "string"
+                        },
+                        "permission6": {
+                          "type": "string"
+                        },
+                        "permission7": {
+                          "type": "string"
+                        },
+                        "permission8": {
+                          "type": "string"
+                        },
+                        "permission9": {
+                          "type": "string"
+                        },
+                        "permission10": {
+                          "type": "string"
+                        }
+                      }
                     },
                     "createdAt": {
                       "type": "string",
@@ -14237,8 +14479,43 @@
                                                 }
                                               }
                                             },
-                                            "department": {
-                                              "type": "string"
+                                            "rolescollection": {
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "string"
+                                                },
+                                                "permission1": {
+                                                  "type": "string"
+                                                },
+                                                "permission2": {
+                                                  "type": "string"
+                                                },
+                                                "permission3": {
+                                                  "type": "string"
+                                                },
+                                                "permission4": {
+                                                  "type": "string"
+                                                },
+                                                "permission5": {
+                                                  "type": "string"
+                                                },
+                                                "permission6": {
+                                                  "type": "string"
+                                                },
+                                                "permission7": {
+                                                  "type": "string"
+                                                },
+                                                "permission8": {
+                                                  "type": "string"
+                                                },
+                                                "permission9": {
+                                                  "type": "string"
+                                                },
+                                                "permission10": {
+                                                  "type": "string"
+                                                }
+                                              }
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -14337,8 +14614,43 @@
                       }
                     }
                   },
-                  "department": {
-                    "type": "string"
+                  "rolescollection": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string"
+                      },
+                      "permission1": {
+                        "type": "string"
+                      },
+                      "permission2": {
+                        "type": "string"
+                      },
+                      "permission3": {
+                        "type": "string"
+                      },
+                      "permission4": {
+                        "type": "string"
+                      },
+                      "permission5": {
+                        "type": "string"
+                      },
+                      "permission6": {
+                        "type": "string"
+                      },
+                      "permission7": {
+                        "type": "string"
+                      },
+                      "permission8": {
+                        "type": "string"
+                      },
+                      "permission9": {
+                        "type": "string"
+                      },
+                      "permission10": {
+                        "type": "string"
+                      }
+                    }
                   },
                   "createdAt": {
                     "type": "string",

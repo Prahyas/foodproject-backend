@@ -63,8 +63,10 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "department": {
-      "type": "string"
+    "rolescollection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "rollescollection.rolescollection"
     }
   }
 }
